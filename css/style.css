@@ -267,6 +267,15 @@ img {
 .work-title {
   margin-bottom: 50px;
 }
+.img {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 94px;
+}
+
+.img .item + .item {
+  margin-left: 30px;
+}
 
 /*workers*/
 .name-title {
