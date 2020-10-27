@@ -22,6 +22,7 @@ Roboto 400 500 700 900 */
   --main-background-color: #e5e5e5;
   --hero-title-color: #ffffff;
   --footer-color: #ffffff;
+  --border-color: #eeeeee;
 
   --background-header-color: #ffffff;
   --background-working-color: #e5e5e5;
@@ -331,9 +332,9 @@ img {
   background-color: var(--background-color-footer);
 }
 .footer {
-  height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
+  line-height: 1.53;
 }
 .logo-white {
   color: var(--footer-color);
@@ -349,6 +350,7 @@ img {
   color: var(--footer-color);
   font-family: Roboto;
   font-size: 14px;
+
   text-align: left;
 }
 .footer-mail,
@@ -414,9 +416,9 @@ img {
   padding-left: 24px;
   padding-bottom: 20px;
 
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .description .example {
